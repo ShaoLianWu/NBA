@@ -18,12 +18,16 @@ def Golden_State_Warriors():
 def Los_Angeles_Clippers():
   col1, col2 = st.columns(2)
   with col1:
-  st.header('Los_Angeles_Clippers')
     image = Image.open('teams logo/Los_Angeles_Clippers_(2015).svg.png')
     st.image(image) 
   with col2:
-  st.write('水牛城勇士（1970年–1978年）')
+    st.title('Los Angeles Clippers')
+    st.subheader('老闆:Gillian Zucker')
+    st.subheader('GM:Michael Winger')
+    st.subheader('總教練:Tyronn Jamar Lue') 
+  st.write('水牛城勇士（1970年–1978年）-聖地牙哥快艇（1978年–1984年）-洛杉磯快艇（1984年至今）')
+  st.write('洛杉磯快艇隊成立於1970年，當時名為水牛城勇士。')
   col1, col2= st.columns(2)
   col1.metric("聯盟冠軍🏆", "0  次")
   col2.metric("分組冠軍🏆", "2  次")
-  st.write('洛杉磯快艇隊成立於1970年，當時名為水牛城勇士。')
+
