@@ -15,12 +15,12 @@ def Golden_State_Warriors():
   col1, col2= st.columns(2)
   col1.metric("聯盟冠軍🏆", "12  次")
   col2.metric("分組冠軍🏆", "8  次")   
-def BrooklynNets():
-  st.header('Brooklyn Nets')
-  image = Image.open('teams logo/BrooklynNets.png')
+def Los_Angeles_Clippers():
+  st.header('Los_Angeles_Clippers')
+  image = Image.open('teams logo/Los_Angeles_Clippers_(2015).svg.png')
   st.image(image) 
-  st.write('Brooklyn Nets(1946年-至今)')
+  st.write('水牛城勇士（1970年–1978年）')
   col1, col2= st.columns(2)
-  col1.metric("聯盟冠軍🏆", "22  次")
-  col2.metric("分組冠軍🏆", "32  次")
+  col1.metric("聯盟冠軍🏆", "0  次")
+  col2.metric("分組冠軍🏆", "2  次")
   st.write('　布魯克林籃網隊的英文隊名為Brooklyn Nets，球隊成立於1967年，目前所在城市是美國紐約州布魯克林(Brooklyn, New York)，主場為大陸航空中心體育館(Prudential Center)。球隊原名紐澤西籃網隊（New Jersey Nets），2012年球隊遷至紐約布魯克林，4月底更名為「布魯克林籃網隊（Brooklyn Nets）。')
