@@ -16,9 +16,12 @@ def Golden_State_Warriors():
   col1.metric("聯盟冠軍🏆", "12  次")
   col2.metric("分組冠軍🏆", "8  次")   
 def Los_Angeles_Clippers():
+  col1, col2 = st.columns(2)
+  with col1:
   st.header('Los_Angeles_Clippers')
-  image = Image.open('teams logo/Los_Angeles_Clippers_(2015).svg.png')
-  st.image(image) 
+    image = Image.open('teams logo/Los_Angeles_Clippers_(2015).svg.png')
+    st.image(image) 
+  with col2:
   st.write('水牛城勇士（1970年–1978年）')
   col1, col2= st.columns(2)
   col1.metric("聯盟冠軍🏆", "0  次")
