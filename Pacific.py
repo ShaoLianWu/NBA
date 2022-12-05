@@ -36,7 +36,7 @@ def Los_Angeles_Clippers():   #快艇
 def Los_Angeles_Lakers():   #湖人
   col1, col2 = st.columns(2)
   with col1:
-    image = Image.open('teams logo/255px-Los_Angeles_Lakers_logo.svg.png')
+    image = Image.open('teams logo/Los_Angeles_Lakers.png')
     st.image(image) 
   with col2:
     st.title('Los Angeles Lakers')
