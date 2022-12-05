@@ -1,20 +1,20 @@
 import streamlit as st  
 from PIL import Image  
-def BostonCeltics():
+def Golden_State_Warriors():
   col1, col2 = st.columns(2)
   with col1:
-    image = Image.open('teams logo/BostonCeltics.png')
+    image = Image.open('teams logo/Golden_State_Warriors.png')
     st.image(image) 
   with col2:
-     st.title('Boston Celtics')
-     st.subheader('老闆:Wyc Grousbeck')
-     st.subheader('GM:Juka Mcehaic')
-     st.subheader('總教練:Joe Mazzulla (臨時)')     
-  st.write('波士頓塞爾提克(1946年-至今)') 
-  st.write('波士頓塞爾蒂克隊的英文隊名為Boston Celtics，成立於1946年，目前所在地區是美國麻塞諸塞州波士頓市，主場為TD北岸花園球館，為美國職籃史上獲得總冠軍次數最多的球隊。')
+     st.title('Golden State Warriors')
+     st.subheader('老闆:Rick Welts')
+     st.subheader('GM:Robert Michael')
+     st.subheader('總教練:Stephen Douglas')     
+  st.write('金州勇士（1971年至今）') 
+  st.write('1971-1972年賽季開始，勇士隊改名為金州勇士（Golden State Warriors)。球隊離開舊金山，在奧克蘭進行絕大部份的主場比賽，沒有任何一場主場比賽於舊金山或戴利市舉行。但在那個球季中，有六場比賽的主場在於聖地牙哥舉行。')
   col1, col2= st.columns(2)
-  col1.metric("聯盟冠軍🏆", "22  次")
-  col2.metric("分組冠軍🏆", "32  次")   
+  col1.metric("聯盟冠軍🏆", "12  次")
+  col2.metric("分組冠軍🏆", "8  次")   
 def BrooklynNets():
   st.header('Brooklyn Nets')
   image = Image.open('teams logo/BrooklynNets.png')
