@@ -17,16 +17,16 @@ if option=='Pacific':
   if teams=='Sacramento Kings':
     Pacific.Sacramento_Kings()
     
-else option=='Southwest':
+  else option=='Southwest':
   
-  teams=st.sidebar.selectbox( '選擇球隊？', ['Dallas Mavericks', 'Houston Rockets', 'Memphis Grizzlies', 'New Orleans Pelicans','San Antonio Spurs'])
-  if teams=='Dallas Mavericks':
-    Pacific.Dallas_Mavericks()
-  if teams=='Houston Rockets':
-    Pacific.Houston_Rockets()
-  if teams=='Memphis Grizzlies':
-    Pacific.Memphis_Grizzlies()
-  if teams=='New Orleans Pelicans':
-    Pacific.New_Orleans_Pelicans()
-  if teams=='San Antonio Spurs':
-    Pacific.San_Antonio_Spurs()
+    teams=st.sidebar.selectbox( '選擇球隊？', ['Dallas Mavericks', 'Houston Rockets', 'Memphis Grizzlies', 'New Orleans Pelicans','San Antonio Spurs'])
+    if teams=='Dallas Mavericks':
+      Pacific.Dallas_Mavericks()
+    if teams=='Houston Rockets':
+      Pacific.Houston_Rockets()
+    if teams=='Memphis Grizzlies':
+      Pacific.Memphis_Grizzlies()
+    if teams=='New Orleans Pelicans':
+      Pacific.New_Orleans_Pelicans()
+    if teams=='San Antonio Spurs':
+      Pacific.San_Antonio_Spurs()
