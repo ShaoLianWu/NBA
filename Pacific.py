@@ -69,7 +69,7 @@ def Phoenix_Suns():   #太陽
 def Sacramento_Kings():   #國王
   col1, col2 = st.columns(2)
   with col1:
-    image = Image.open('teams logo/Sacramento_Kings.jpg')
+    image = Image.open('teams logo/Sacramento_Kings.png')
     st.image(image) 
   with col2:
     st.title('Sacramento Kings')
