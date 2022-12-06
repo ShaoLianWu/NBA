@@ -52,7 +52,7 @@ def Los_Angeles_Lakers():   #湖人
 def Phoenix_Suns():   #太陽
   col1, col2 = st.columns(2)
   with col1:
-    image = Image.open('teams logo/Los_Angeles_Lakers.png')
+    image = Image.open('teams logo/Phoenix_Suns.png')
     st.image(image) 
   with col2:
     st.title('Los Angeles Lakers')
