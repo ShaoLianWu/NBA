@@ -20,7 +20,7 @@ def Golden_State_Warriors():   #勇士
 def Los_Angeles_Clippers():   #快艇
   col1, col2 = st.columns(2)
   with col1:
-    image = Image.open('teams logo/Los_Angeles_Clippers.jpg')
+    image = Image.open('teams logo/Los_Angeles_Clippers.png')
     st.image(image) 
   with col2:
     st.title('Los Angeles Clippers')
@@ -69,7 +69,7 @@ def Phoenix_Suns():   #太陽
 def Sacramento_Kings():   #國王
   col1, col2 = st.columns(2)
   with col1:
-    image = Image.open('teams logo/Sacramento_Kings.png')
+    image = Image.open('teams logo/Sacramento_Kings.jpg')
     st.image(image) 
   with col2:
     st.title('Sacramento Kings')
