@@ -17,7 +17,7 @@ if option=='Pacific':
   if teams=='Sacramento Kings':
     Pacific.Sacramento_Kings()
     
-else option=='Southwest':
+if option=='Southwest':
   
   teams=st.sidebar.selectbox( '選擇球隊？', ['Dallas Mavericks', 'Houston Rockets', 'Memphis Grizzlies', 'New Orleans Pelicans','San Antonio Spurs'])
   if teams=='Dallas Mavericks':
