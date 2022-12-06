@@ -69,7 +69,7 @@ def New_Orleans_Pelicans():   #鵜鶘
 def San_Antonio_Spurs():   #馬刺
   col1, col2 = st.columns(2)
   with col1:
-    image = Image.open('teams logo/San_Antonio_Spurs.jpg')
+    image = Image.open('teams logo/San_Antonio_Spurs.png')
     st.image(image) 
   with col2:
     st.title('San Antonio Spurs')
