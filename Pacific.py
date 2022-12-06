@@ -33,6 +33,7 @@ def Los_Angeles_Clippers():   #快艇
   col1.metric("總冠軍🏆", "0  次")
   col2.metric("區冠軍🏆", "0  次")
   
+  
 def Los_Angeles_Lakers():   #湖人
   col1, col2 = st.columns(2)
   with col1:
@@ -65,7 +66,7 @@ def Phoenix_Suns():   #太陽
   col1.metric("總冠軍🏆", "0  次")
   col2.metric("區冠軍🏆", "3  次")
 
-  def Sacramento_Kings():   #國王
+ def Sacramento_Kings():   #國王
   col1, col2 = st.columns(2)
   with col1:
     image = Image.open('teams logo/Sacramento_Kings.png')
