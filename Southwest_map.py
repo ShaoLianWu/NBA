@@ -54,22 +54,22 @@ def Memphis_Grizzlies_map():  #灰熊
         st.image(image1)
     st.write('地址：191 Beale St, Memphis, TN 38103美國, 觀眾席數：17,794人')
     
-def Phoenix_Suns_map():  #太陽
-    st.header('主場:足跡中心')
-    Footprint_Center= folium.Map(location=[33.445833,-112.071389], zoom_start=16)
+def New_Orleans_Pelicans_map():  #鵜鶘
+    st.header('主場:冰沙國王中心')
+    Smoothie_King_Center= folium.Map(location=[29.948889, -90.081944], zoom_start=16)
         # add marker for Liberty Bell
-    tooltip = "足跡中心"
-    folium.Marker([33.445833,-112.071389], popup="足跡中心", tooltip=tooltip
-    ).add_to(Footprint_Center)
-    folium_static(Footprint_Center)
+    tooltip = "冰沙國王中心"
+    folium.Marker([29.948889, -90.081944], popup="冰沙國王中心", tooltip=tooltip
+    ).add_to(Smoothie_King_Center)
+    folium_static(Smoothie_King_Center)
     col1, col2 = st.columns(2)
     with col1:
-        image = Image.open('teams picture/Footprint_Center.jpg')
+        image = Image.open('teams picture/Smoothie_King_Center.jpg')
         st.image(image)        
     with col2:        
-        image1 = Image.open('teams picture/Footprint_Center_Tickets.jpg')
+        image1 = Image.open('teams picture/Smoothie_King_Center_Tickets.jpg')
         st.image(image1)
-    st.write('地址：US Airways Center, 201S 1st St, Phoenix, AZ 85004美國, 觀眾席數：18,422人')
+    st.write('地址：1501 Dave Dixon Dr, New Orleans, LA 70113美國, 觀眾席數：16,867人')
 
 def Sacramento_Kings_map():  #國王
     st.header('主場:金州第一中心')
