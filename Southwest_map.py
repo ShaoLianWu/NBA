@@ -73,12 +73,12 @@ def New_Orleans_Pelicans_map():  #鵜鶘
 
 def San_Antonio_Spurs_map():  #馬刺
     st.header('主場:美國電話電報中心')
-    AT&T_Center= folium.Map(location=[29.426944, -98.4375], zoom_start=16)
+    ATT_Center= folium.Map(location=[29.426944, -98.4375], zoom_start=16)
         # add marker for Liberty Bell
     tooltip = "美國電話電報中心"
     folium.Marker([29.426944, -98.4375], popup="美國電話電報中心", tooltip=tooltip
-    ).add_to(AT&T_Center)
-    folium_static(AT&T_Center)
+    ).add_to(ATT_Center)
+    folium_static(ATT_Center)
     col1, col2 = st.columns(2)
     with col1:
         image = Image.open('teams picture/AT&T_Center.jpg')
