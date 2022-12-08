@@ -20,22 +20,22 @@ def Dallas_Mavericks_map():  #獨行俠
         st.image(image1)
     st.write('地址：2500 Victory Ave, Dallas, TX 75219美國, 觀眾席數：20,000-21,041席')
   
-def Los_Angeles_Clippers_map():  #快艇
-    st.header('主場:加密貨幣網體育館')
-    Staples_Center= folium.Map(location=[34.043056, -118.267222], zoom_start=16)
+def Houston_Rockets_map():  #火箭
+    st.header('主場:豐田中心')
+    Toyota_Center= folium.Map(location=[29.750833, -95.362222], zoom_start=16)
         # add marker for Liberty Bell
-    tooltip = "加密貨幣網體育館"
-    folium.Marker([34.043056, -118.267222], popup="加密貨幣網體育館", tooltip=tooltip
-    ).add_to(Staples_Center)
-    folium_static(Staples_Center)
+    tooltip = "豐田中心"
+    folium.Marker([29.750833, -95.362222], popup="豐田中心", tooltip=tooltip
+    ).add_to(Toyota_Center)
+    folium_static(Toyota_Center)
     col1, col2 = st.columns(2)
     with col1:
-        image = Image.open('teams picture/Staples_Center.jpg')
+        image = Image.open('teams picture/Toyota_Center.jpg')
         st.image(image)        
     with col2:        
-        image1 = Image.open('teams picture/Staples_Center_Tickets.jpg')
+        image1 = Image.open('teams picture/Toyota_Center_Tickets.jpg')
         st.image(image1)
-    st.write('地址：1111 S Figueroa St, Los Angeles, CA 90015美國, 觀眾席數：19,060人')
+    st.write('地址：1510 Polk St, Houston, TX 77002美國, 觀眾席數：18,300人')
     
 def Los_Angeles_Lakers_map():  #湖人
     st.header('主場:加密貨幣網體育館')
