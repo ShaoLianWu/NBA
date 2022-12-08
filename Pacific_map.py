@@ -71,7 +71,7 @@ def Phoenix_Suns_map():  #太陽
         st.image(image1)
     st.write('地址：US Airways Center, 201S 1st St, Phoenix, AZ 85004美國, 觀眾席數：18,422人')
 
-def Phoenix_Suns_map():  #國王
+def Sacramento_Kings_map():  #國王
     st.header('主場:金州第一中心')
     Golden1_Center= folium.Map(location=[38.580361, -121.499611], zoom_start=16)
         # add marker for Liberty Bell
