@@ -1,6 +1,9 @@
 import streamlit as st  
 import Pacific 
 import Southwest
+import Pacific_map
+import Southwest_map
+
 st.title('NBA數據查詢系統')
 st.sidebar.header('選擇球隊及數據')
 option = st.sidebar.selectbox( '選擇分組？', ['Atlantic','Central', 'Southeast', 'Northwest','Pacific','Southwest'])
