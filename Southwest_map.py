@@ -37,22 +37,22 @@ def Houston_Rockets_map():  #火箭
         st.image(image1)
     st.write('地址：1510 Polk St, Houston, TX 77002美國, 觀眾席數：18,300人')
     
-def Los_Angeles_Lakers_map():  #湖人
-    st.header('主場:加密貨幣網體育館')
-    Staples_Center= folium.Map(location=[34.043056, -118.267222], zoom_start=16)
+def Memphis_Grizzlies_map():  #灰熊
+    st.header('主場:聯邦快遞廣場')
+    FedExForum_Center= folium.Map(location=[35.138333, -90.050556], zoom_start=16)
         # add marker for Liberty Bell
-    tooltip = "加密貨幣網體育館"
-    folium.Marker([34.043056, -118.267222], popup="加密貨幣網體育館", tooltip=tooltip
-    ).add_to(Staples_Center)
-    folium_static(Staples_Center)
+    tooltip = "聯邦快遞廣場"
+    folium.Marker([35.138333, -90.050556], popup="聯邦快遞廣場", tooltip=tooltip
+    ).add_to(FedExForum_Center)
+    folium_static(FedExForum_Center)
     col1, col2 = st.columns(2)
     with col1:
-        image = Image.open('teams picture/Staples_Center.jpg')
+        image = Image.open('teams picture/FedExForum_Center.jpg')
         st.image(image)        
     with col2:        
-        image1 = Image.open('teams picture/Staples_Center_Tickets.jpg')
+        image1 = Image.open('teams picture/FedExForum_Center_Tickets.jpg')
         st.image(image1)
-    st.write('地址：1111 S Figueroa St, Los Angeles, CA 90015美國, 觀眾席數：18,997人')
+    st.write('地址：191 Beale St, Memphis, TN 38103美國, 觀眾席數：17,794人')
     
 def Phoenix_Suns_map():  #太陽
     st.header('主場:足跡中心')
