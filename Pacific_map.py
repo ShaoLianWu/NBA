@@ -3,19 +3,19 @@ import folium
 from PIL import Image  
 from streamlit_folium import folium_static 
 def Golden_State_Warriors_map():
-    st.header('主場:甲骨文球場')
-    StateFarmArena= folium.Map(location=[33.75737827997708, -84.39633513151331], zoom_start=16)
+    st.header('主場:大通銀行中心')
+    Chase_Center= folium.Map(location=[37.768056, -122.3875], zoom_start=16)
         # add marker for Liberty Bell
-    tooltip = "州立農業球館"
-    folium.Marker([33.75737827997708, -84.39633513151331], popup="州立農業球館", tooltip=tooltip
-    ).add_to(StateFarmArena)
-    folium_static(StateFarmArena)
+    tooltip = "大通銀行中心"
+    folium.Marker([37.768056, -122.3875], popup="大通銀行中心", tooltip=tooltip
+    ).add_to(Chase_Center)
+    folium_static(Chase_Center)
     col1, col2 = st.columns(2)
     with col1:
-        image = Image.open('State Farm Arena.jpeg')
+        image = Image.open('Chase_Center.jpeg')
         st.image(image)        
     with col2:        
-        image1 = Image.open('State Farm Arena1.jpeg')
+        image1 = Image.open('Chase_Center_Tickets.jpeg')
         st.image(image1)
-    st.write('地址：1 State Farm Dr, Atlanta, GA 30303美國,觀眾席數：18,371席')
+    st.write('地址：1 Warriors Way, San Francisco, CA 94158美國, 觀眾席數：18,064席, 演唱會 19,500')
   
