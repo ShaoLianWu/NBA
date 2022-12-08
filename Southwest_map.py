@@ -71,19 +71,19 @@ def New_Orleans_Pelicans_map():  #鵜鶘
         st.image(image1)
     st.write('地址：1501 Dave Dixon Dr, New Orleans, LA 70113美國, 觀眾席數：16,867人')
 
-def Sacramento_Kings_map():  #國王
-    st.header('主場:金州第一中心')
-    Golden1_Center= folium.Map(location=[38.580361, -121.499611], zoom_start=16)
+def San_Antonio_Spurs_map():  #馬刺
+    st.header('主場:美國電話電報中心')
+    AT&T_Center= folium.Map(location=[29.426944, -98.4375], zoom_start=16)
         # add marker for Liberty Bell
-    tooltip = "金州第一中心"
-    folium.Marker([38.580361, -121.499611], popup="金州第一中心", tooltip=tooltip
-    ).add_to(Golden1_Center)
-    folium_static(Golden1_Center)
+    tooltip = "美國電話電報中心"
+    folium.Marker([29.426944, -98.4375], popup="美國電話電報中心", tooltip=tooltip
+    ).add_to(AT&T_Center)
+    folium_static(AT&T_Center)
     col1, col2 = st.columns(2)
     with col1:
-        image = Image.open('teams picture/Golden1_Center.jpg')
+        image = Image.open('teams picture/AT&T_Center.jpg')
         st.image(image)        
     with col2:        
-        image1 = Image.open('teams picture/Golden1_Center_Tickets.jpg')
+        image1 = Image.open('teams picture/AT&T_Center_Tickets.jpg')
         st.image(image1)
-    st.write('地址：500 David J Stern Walk, Sacramento, CA 95814美國, 觀眾席數：17,500人')
+    st.write('地址：1 AT&T Center Parkway, San Antonio, TX 78219美國, 觀眾席數：18,418人')
