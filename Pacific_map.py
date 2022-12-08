@@ -12,10 +12,10 @@ def Golden_State_Warriors_map():
     folium_static(Chase_Center)
     col1, col2 = st.columns(2)
     with col1:
-        image = Image.open('teams picture/Chase_Center.jpeg')
+        image = Image.open('teams picture/Chase_Center.jpg')
         st.image(image)        
     with col2:        
-        image1 = Image.open('teams picture/Chase_Center_Tickets.jpeg')
+        image1 = Image.open('teams picture/Chase_Center_Tickets.jpg')
         st.image(image1)
     st.write('地址：1 Warriors Way, San Francisco, CA 94158美國, 觀眾席數：18,064席, 演唱會 19,500')
   
