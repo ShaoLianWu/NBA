@@ -18,7 +18,7 @@ def Dallas_Mavericks_map():  #獨行俠
     with col2:        
         image1 = Image.open('teams picture/American_Airlines_Center_Tickets.jpg')
         st.image(image1)
-    st.write('地址：2500 Victory Ave, Dallas, TX 75219美國, 觀眾席數：20,000-21,041席')
+    st.write('地址：2500 Victory Ave, Dallas, TX 75219美國, 觀眾席數：20,000 - 21,041席')
   
 def Houston_Rockets_map():  #火箭
     st.header('主場:豐田中心')
