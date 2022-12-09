@@ -5,7 +5,7 @@ from streamlit_folium import folium_static
 
 def Dallas_Mavericks_map():  #獨行俠
     st.header('主場:美國航空中心')
-    American_Airlines_Center= folium.Map(location=[32.790556, -96.810278], zoom_start=16ㄢ
+    American_Airlines_Center= folium.Map(location=[32.790556, -96.810278], zoom_start=16)
         # add marker for Liberty Bell
     tooltip = "美國航空中心"
     folium.Marker([32.790556, -96.810278], popup="美國航空中心", tooltip=tooltip
