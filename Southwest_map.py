@@ -13,10 +13,10 @@ def Dallas_Mavericks_map():  #獨行俠
     folium_static(American_Airlines_Center)
     col1, col2 = st.columns(2)
     with col1:
-        image = Image.open('teams picture/American_Airlines.jpg')
+        image = Image.open('teams picture/American_Airlines_Center.jpg')
         st.image(image)        
     with col2:        
-        image1 = Image.open('teams picture/American_Airlines_Tickets.jpg')
+        image1 = Image.open('teams picture/American_Airlines_Center_Tickets.jpg')
         st.image(image1)
     st.write('地址：2500 Victory Ave, Dallas, TX 75219美國, 觀眾席數：20,000-21,041席')
   
