@@ -81,9 +81,9 @@ def San_Antonio_Spurs_map():  #馬刺
     folium_static(ATT_Center)
     col1, col2 = st.columns(2)
     with col1:
-        image = Image.open('teams picture/AT&T_Center.jpg')
+        image = Image.open('teams picture/ATT_Center.jpg')
         st.image(image)        
     with col2:        
-        image1 = Image.open('teams picture/AT&T_Center_Tickets.jpg')
+        image1 = Image.open('teams picture/ATT_Center_Tickets.jpg')
         st.image(image1)
     st.write('地址：1 AT&T Center Parkway, San Antonio, TX 78219美國, 觀眾席數：18,418人')
