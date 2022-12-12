@@ -81,56 +81,6 @@ def Los_Angeles_Lakers_star():
       image = Image.open('star/Kobe Bryant.jpg')
       st.image(image)
 
-def  Golden_State_Warriors_Star():
-  st.header('Boston Celtics三大傳奇球星')
-  col1, col2 = st.columns(2)
-  with col1:
-    option=st.selectbox('選擇球星？',['Tim Hardaway', 'Klay thompson', 'Stephen Curry'])
-    if option=='Tim Hardaway':
-      new_df = df[0:1]
-      st.dataframe(new_df)
-    if option=='Klay thompson':
-      new_df = df[1:2]
-      st.dataframe(new_df)
-    if option=='Stephen Curry':
-      new_df = df[2:3]
-      st.dataframe(new_df)
-  with col2:
-    if option=='Tim Hardaway':
-      image = Image.open('star/Tim Hardaway.jpg')
-      st.image(image)
-    if option=='Klay thompson':
-      image = Image.open('star/Klay thompson.jpg')
-      st.image(image)
-    if option=='Stephen Curry':
-      image = Image.open('star/Stephen Curry.jpg')
-      st.image(image)
-      
-def Los_Angeles_Clippers_star():
-  st.header('Brooklyn Nets三大傳奇球星')
-  col1, col2 = st.columns(2)
-  with col1:
-    option=st.selectbox('選擇球星？',['Bob McAdoo', 'Blake Griffin', 'Chris Paul'])
-    if option=='Bob McAdoo':
-      new_df = df[5:6]
-      st.dataframe(new_df)
-    if option=='Blake Griffin':
-      new_df = df[6:7]
-      st.dataframe(new_df)
-    if option=='Chris Paul':
-      new_df = df[7:8]
-      st.dataframe(new_df)
-  with col2:
-    if option=='Bob McAdoo':
-      image = Image.open('star/Bob McAdoo.jpg')
-      st.image(image)
-    if option=='Blake Griffin':
-      image = Image.open('star/Blake Griffin.jpg')
-      st.image(image)
-    if option=='Chris Paul':
-      image = Image.open('star/Chris Paul.jpg')
-      st.image(image)
-      
 def  Phoenix_Suns_Star():
   st.header('Boston Celtics三大傳奇球星')
   col1, col2 = st.columns(2)
