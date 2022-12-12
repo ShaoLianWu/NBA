@@ -106,77 +106,27 @@ def  New_Orleans_Pelicans_Star():
       image = Image.open('star/Anthony Davis.jpg')
       st.image(image)
       
-def Los_Angeles_Clippers_star():
+def San_Antonio_Spurs_star():
   st.header('Brooklyn Nets三大傳奇球星')
   col1, col2 = st.columns(2)
   with col1:
-    option=st.selectbox('選擇球星？',['Bob McAdoo', 'Blake Griffin', 'Chris Paul'])
-    if option=='Bob McAdoo':
+    option=st.selectbox('選擇球星？',['Tim Duncan', 'David Robinson', 'Manu Ginóbili'])
+    if option=='Tim Duncan':
       new_df = df[5:6]
       st.dataframe(new_df)
-    if option=='Blake Griffin':
+    if option=='David Robinson':
       new_df = df[6:7]
       st.dataframe(new_df)
-    if option=='Chris Paul':
+    if option=='Manu Ginóbili':
       new_df = df[7:8]
       st.dataframe(new_df)
   with col2:
-    if option=='Bob McAdoo':
-      image = Image.open('star/Bob McAdoo.jpg')
+    if option=='Tim Duncan':
+      image = Image.open('star/Tim Duncan.jpg')
       st.image(image)
-    if option=='Blake Griffin':
-      image = Image.open('star/Blake Griffin.jpg')
+    if option=='David Robinson':
+      image = Image.open('star/David Robinson.jpg')
       st.image(image)
-    if option=='Chris Paul':
-      image = Image.open('star/Chris Paul.jpg')
-      st.image(image)
-      
-def  Phoenix_Suns_Star():
-  st.header('Boston Celtics三大傳奇球星')
-  col1, col2 = st.columns(2)
-  with col1:
-    option=st.selectbox('選擇球星？',['Amar'e Stoudemire', 'Steve Nash', 'Shawn Marion'])
-    if option=='Amar'e Stoudemire':
-      new_df = df[0:1]
-      st.dataframe(new_df)
-    if option=='Steve Nash':
-      new_df = df[1:2]
-      st.dataframe(new_df)
-    if option=='Shawn Marion':
-      new_df = df[2:3]
-      st.dataframe(new_df)
-  with col2:
-    if option=='Amar'e Stoudemire':
-      image = Image.open('star/Amar'e Stoudemire.jpg')
-      st.image(image)
-    if option=='Steve Nash':
-      image = Image.open('star/Steve Nash.jpg')
-      st.image(image)
-    if option=='Shawn Marion':
-      image = Image.open('star/Shawn Marion.jpg')
-      st.image(image)
-      
-def Sacramento_Kings_star():
-  st.header('Brooklyn Nets三大傳奇球星')
-  col1, col2 = st.columns(2)
-  with col1:
-    option=st.selectbox('選擇球星？',['Chris Webber', 'Oscar Robertson', 'Doug Christie'])
-    if option=='Chris Webber':
-      new_df = df[5:6]
-      st.dataframe(new_df)
-    if option=='Oscar Robertson':
-      new_df = df[6:7]
-      st.dataframe(new_df)
-    if option=='Doug Christie':
-      new_df = df[7:8]
-      st.dataframe(new_df)
-  with col2:
-    if option=='Chris Webber':
-      image = Image.open('star/Chris Webber.jpg')
-      st.image(image)
-    if option=='Oscar Robertson':
-      image = Image.open('star/Oscar Robertson.jpg')
-      st.image(image)
-    if option=='Doug Christie':
-      image = Image.open('star/Doug Christie.jpg')
+    if option=='Manu Ginóbili':
+      image = Image.open('star/Manu Ginóbili.jpg')
       st.image(image)
