@@ -3,6 +3,10 @@ import Pacific
 import Southwest
 import Pacific_map
 import Southwest_map
+import Pacific_star
+import Southwest_star
+import Pacific_allplayers
+import Southwest_allplayers
 
 st.title('NBA數據查詢系統')
 st.sidebar.header('選擇球隊及數據')
