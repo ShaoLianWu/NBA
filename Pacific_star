@@ -3,7 +3,9 @@ from PIL import Image
 import pandas as pd
 import xlrd  
 import openpyxl
+
 df = pd.read_excel("star/Atlantic_Central_Star.xlsx",sheet_name="工作表1",usecols="A:H") 
+
 def BostonCeltics_Star():
   st.header('Boston Celtics三大傳奇球星')
   col1, col2 = st.columns(2)
@@ -28,6 +30,7 @@ def BostonCeltics_Star():
     if option=='Paul Pierce':
       image = Image.open('star/Paul Pierce.jpg')
       st.image(image)
+      
 def BrooklynNets_star():
   st.header('Brooklyn Nets三大傳奇球星')
   col1, col2 = st.columns(2)
@@ -52,6 +55,7 @@ def BrooklynNets_star():
     if option=='Derrick Coleman':
       image = Image.open('star/Derrick Coleman.jpg')
       st.image(image)
+      
 def NewYorkKnicks_star():
   st.header('New York Knicks三大傳奇球星')
   col1, col2 = st.columns(2)
