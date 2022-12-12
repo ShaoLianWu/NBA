@@ -56,27 +56,27 @@ def Los_Angeles_Clippers_star():
       image = Image.open('star/Chris Paul.jpg')
       st.image(image)
       
-def NewYorkKnicks_star():
+def Los_Angeles_Lakers_star():
   st.header('New York Knicks三大傳奇球星')
   col1, col2 = st.columns(2)
   with col1:
-    option=st.selectbox('選擇球星？',['Walt Frazier', 'Patrick Ewing', 'Willis Reed'])
-    if option=='Walt Frazier':
+    option=st.selectbox('選擇球星？',['Magic Johnson', 'Shaquille O'Neal', 'Kobe Bryant'])
+    if option=='Magic Johnson':
       new_df = df[9:10]
       st.dataframe(new_df)
-    if option=='Patrick Ewing':
+    if option=='Shaquille O'Neal':
       new_df = df[10:11]
       st.dataframe(new_df)
-    if option=='Willis Reed':
+    if option=='Kobe Bryant':
       new_df = df[11:12]
       st.dataframe(new_df)
   with col2:
-    if option=='Walt Frazier':
-      image = Image.open('star/Walt Frazier.jpg')
+    if option=='Magic Johnson':
+      image = Image.open('star/Magic Johnson.jpg')
       st.image(image)
-    if option=='Patrick Ewing':
-      image = Image.open('star/Patrick Ewing.jpg')
+    if option=='Shaquille O'Neal':
+      image = Image.open('star/Shaquille O'Neal.jpg')
       st.image(image)
-    if option=='Willis Reed':
-      image = Image.open('star/Willis Reed.jpg')
+    if option=='Kobe Bryant':
+      image = Image.open('star/Kobe Bryant.jpg')
       st.image(image)
