@@ -81,7 +81,7 @@ def Los_Angeles_Lakers_star():
       image = Image.open('star/Kobe Bryant.jpg')
       st.image(image)
 
-def  Phoenix_Suns_Star():
+def  Phoenix_Suns_star():
   st.header('Phoenix Suns Star三大傳奇球星')
   col1, col2 = st.columns(2)
   with col1:
