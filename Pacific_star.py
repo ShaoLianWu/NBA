@@ -7,7 +7,7 @@ import openpyxl
 df = pd.read_excel("star/Pacific_Southwest_star.xlsx",sheet_name="工作表1",usecols="A:H") 
 
 def Golden_State_Warriors_Star():
-  st.header('Boston Celtics三大傳奇球星')
+  st.header('Golden State Warriors三大傳奇球星')
   col1, col2 = st.columns(2)
   with col1:
     option=st.selectbox('選擇球星？',['Tim Hardaway', 'Klay thompson', 'Stephen Curry'])
@@ -32,7 +32,7 @@ def Golden_State_Warriors_Star():
       st.image(image)
       
 def Los_Angeles_Clippers_star():
-  st.header('Brooklyn Nets三大傳奇球星')
+  st.header('Los Angeles Clippers三大傳奇球星')
   col1, col2 = st.columns(2)
   with col1:
     option=st.selectbox('選擇球星？',['Bob McAdoo', 'Blake Griffin', 'Chris Paul'])
@@ -57,7 +57,7 @@ def Los_Angeles_Clippers_star():
       st.image(image)
       
 def Los_Angeles_Lakers_star():
-  st.header('New York Knicks三大傳奇球星')
+  st.header('Los Angeles Lakers star三大傳奇球星')
   col1, col2 = st.columns(2)
   with col1:
     option=st.selectbox('選擇球星？',['Magic Johnson', 'Shaquille O`Neal', 'Kobe Bryant'])
@@ -82,7 +82,7 @@ def Los_Angeles_Lakers_star():
       st.image(image)
 
 def  Phoenix_Suns_Star():
-  st.header('Boston Celtics三大傳奇球星')
+  st.header('Phoenix Suns Star三大傳奇球星')
   col1, col2 = st.columns(2)
   with col1:
     option=st.selectbox('選擇球星？',['Amar`e Stoudemire', 'Steve Nash', 'Shawn Marion'])
@@ -107,7 +107,7 @@ def  Phoenix_Suns_Star():
       st.image(image)
       
 def Sacramento_Kings_star():
-  st.header('Brooklyn Nets三大傳奇球星')
+  st.header('Sacramento Kings star三大傳奇球星')
   col1, col2 = st.columns(2)
   with col1:
     option=st.selectbox('選擇球星？',['Chris Webber', 'Oscar Robertson', 'Doug Christie'])
