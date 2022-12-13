@@ -6,7 +6,7 @@ import openpyxl
 
 df = pd.read_excel("star/Pacific_Southwest_star.xlsx",sheet_name="工作表1",usecols="A:H") 
 
-def  Golden_State_Warriors_Star():
+def Golden_State_Warriors_Star():
   st.header('Boston Celtics三大傳奇球星')
   col1, col2 = st.columns(2)
   with col1:
