@@ -100,7 +100,7 @@ def  New_Orleans_Pelicans_Star():
       image = Image.open('star/Pete Maravich.jpg')
       st.image(image)
     if option=='Chris Paul':
-      image = Image.open('star/Chris Paul.jpg')
+      image = Image.open('star/Chris Paul.jepg')
       st.image(image)
     if option=='Anthony Davis':
       image = Image.open('star/Anthony Davis.jpg')
