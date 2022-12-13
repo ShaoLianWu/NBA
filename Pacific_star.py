@@ -60,11 +60,11 @@ def Los_Angeles_Lakers_star():
   st.header('New York Knicks三大傳奇球星')
   col1, col2 = st.columns(2)
   with col1:
-    option=st.selectbox('選擇球星？',['Magic Johnson', 'Shaquille O'Neal', 'Kobe Bryant'])
+    option=st.selectbox('選擇球星？',['Magic Johnson', 'Shaquille ONeal', 'Kobe Bryant'])
     if option=='Magic Johnson':
       new_df = df[9:10]
       st.dataframe(new_df)
-    if option=='Shaquille O'Neal':
+    if option=='Shaquille ONeal':
       new_df = df[10:11]
       st.dataframe(new_df)
     if option=='Kobe Bryant':
@@ -74,8 +74,8 @@ def Los_Angeles_Lakers_star():
     if option=='Magic Johnson':
       image = Image.open('star/Magic Johnson.jpg')
       st.image(image)
-    if option=='Shaquille O'Neal':
-      image = Image.open('star/Shaquille O'Neal.jpg')
+    if option=='Shaquille ONeal':
+      image = Image.open('star/Shaquille ONeal.jpg')
       st.image(image)
     if option=='Kobe Bryant':
       image = Image.open('star/Kobe Bryant.jpg')
