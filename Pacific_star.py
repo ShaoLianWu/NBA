@@ -60,11 +60,11 @@ def Los_Angeles_Lakers_star():
   st.header('New York Knicks三大傳奇球星')
   col1, col2 = st.columns(2)
   with col1:
-    option=st.selectbox('選擇球星？',['Magic Johnson', 'Shaquille ONeal', 'Kobe Bryant'])
+    option=st.selectbox('選擇球星？',['Magic Johnson', 'Shaquille O`Neal', 'Kobe Bryant'])
     if option=='Magic Johnson':
       new_df = df[9:10]
       st.dataframe(new_df)
-    if option=='Shaquille ONeal':
+    if option=='Shaquille O`Neal':
       new_df = df[10:11]
       st.dataframe(new_df)
     if option=='Kobe Bryant':
@@ -74,7 +74,7 @@ def Los_Angeles_Lakers_star():
     if option=='Magic Johnson':
       image = Image.open('star/Magic Johnson.jpg')
       st.image(image)
-    if option=='Shaquille ONeal':
+    if option=='Shaquille O`Neal':
       image = Image.open('star/Shaquille ONeal.jpg')
       st.image(image)
     if option=='Kobe Bryant':
@@ -85,8 +85,8 @@ def  Phoenix_Suns_Star():
   st.header('Boston Celtics三大傳奇球星')
   col1, col2 = st.columns(2)
   with col1:
-    option=st.selectbox('選擇球星？',['Amar'e Stoudemire', 'Steve Nash', 'Shawn Marion'])
-    if option=='Amar'e Stoudemire':
+    option=st.selectbox('選擇球星？',['Amar`e Stoudemire', 'Steve Nash', 'Shawn Marion'])
+    if option=='Amar`e Stoudemire':
       new_df = df[0:1]
       st.dataframe(new_df)
     if option=='Steve Nash':
@@ -96,8 +96,8 @@ def  Phoenix_Suns_Star():
       new_df = df[2:3]
       st.dataframe(new_df)
   with col2:
-    if option=='Amar'e Stoudemire':
-      image = Image.open('star/Amar'e Stoudemire.jpg')
+    if option=='Amar`e Stoudemire':
+      image = Image.open('star/Amare Stoudemire.jpg')
       st.image(image)
     if option=='Steve Nash':
       image = Image.open('star/Steve Nash.jpg')
