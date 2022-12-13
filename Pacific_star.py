@@ -1,7 +1,7 @@
 import streamlit as st  
 from PIL import Image
 import pandas as pd
-import xlsx
+import xlrd
 import openpyxl
 
 df = pd.read_excel("star/Atlantic_Central_Star.xlsx",sheet_name="工作表1",usecols="A:H") 
