@@ -6,7 +6,7 @@ import openpyxl
 
 df = pd.read_excel("star/Pacific_Southwest_star.xlsx",sheet_name="工作表1",usecols="A:H") 
 
-def  Dallas_Maverick_Star():
+def  Dallas_Maverick_star():
   st.header('Boston Celtics三大傳奇球星')
   col1, col2 = st.columns(2)
   with col1:
@@ -81,7 +81,7 @@ def Memphis_Grizzlies_star():
       image = Image.open('star/Mike Miller.jpg')
       st.image(image)
 
-def  New_Orleans_Pelicans_Star():
+def  New_Orleans_Pelicans_star():
   st.header('Boston Celtics三大傳奇球星')
   col1, col2 = st.columns(2)
   with col1:
