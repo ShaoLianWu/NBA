@@ -4,7 +4,7 @@ import pandas as pd
 import xlrd
 import openpyxl
 
-df = pd.read_excel("star/Atlantic_Central_Star.xlsx",sheet_name="工作表1",usecols="A:H") 
+df = pd.read_excel("star/Pacific_Southwest_star.xlsx",sheet_name="工作表1",usecols="A:H") 
 
 def  Golden_State_Warriors_Star():
   st.header('Boston Celtics三大傳奇球星')
