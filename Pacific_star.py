@@ -8,7 +8,7 @@ df = pd.read_excel("star/Pacific_Southwest_star.xlsx",sheet_name="工作表1",us
 
 def Golden_State_Warriors_star():
   st.header('Golden State Warriors三大傳奇球星')
-  col1, col2, col3 = st.columns((1,3,2))
+  col1, col2, col3 = st.columns((2,3,2))
   with col1:
     st.markdown("👟 Shots on Goal")
     st.markdown("🏃‍♂️ Distance (in km)")
