@@ -7,7 +7,7 @@ def Golden_State_Warriors():   #勇士
     image = Image.open('teams logo/Golden_State_Warriors.png')
     st.image(image) 
   with col2:
-     st.title('Golden State Warriors')
+     st.title('[Golden State Warriors](https://zh.wikipedia.org/wiki/%E9%87%91%E5%B7%9E%E5%8B%87%E5%A3%AB)')
      st.subheader('老闆:Joe Lacob & Peter Guber')
      st.subheader('GM:Robert Michael "Bob" Myers')
      st.subheader('總教練:Stephen Douglas "Steve" Kerr')     
