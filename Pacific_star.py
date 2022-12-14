@@ -14,7 +14,6 @@ def Golden_State_Warriors_star():
     if option=='Tim Hardaway':
       row12_spacer1, row12_1, row12_spacer2 = st.columns((.2, 7.1, .2))
       with row12_1:
-        st.markdown('Show the (or a) match with the...')  
         new_df = df[1:2]
         st.dataframe(new_df)
     if option=='Klay thompson':
