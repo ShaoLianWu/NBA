@@ -14,6 +14,7 @@ def Golden_State_Warriors_star():
     if option=='Tim Hardaway':
       new_df = df[1:]
       st.markdown("st.dataframe(new_df)")
+      st.markdown('gg')
     if option=='Klay thompson':
       new_df = df[1:2]
       st.dataframe(new_df)
