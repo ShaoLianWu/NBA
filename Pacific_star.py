@@ -14,7 +14,7 @@ def Golden_State_Warriors_star():
     if option=='Tim Hardaway':
       new_df = df[1:2]
       st.dataframe(new_df)
-      st.markdown("👟 Shots on Goal")
+      st.markdown('👟 Shots on Goal')
       st.markdown("🏃‍♂️ Distance (in km)")
       st.markdown("🔁 Passes")
       st.markdown("🤹‍♂️ Possession")
