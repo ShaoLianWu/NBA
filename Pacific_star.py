@@ -15,10 +15,10 @@ def Golden_State_Warriors_star():
       new_df = df[0:1]
       st.dataframe(new_df)
     if option=='Klay thompson':
-      new_df = df[0:2]
+      new_df = df[1:2]
       st.dataframe(new_df)
     if option=='Stephen Curry':
-      new_df = df[0:3]
+      new_df = df[2:3]
       st.dataframe(new_df)
   with col2:
     if option=='Tim Hardaway':
