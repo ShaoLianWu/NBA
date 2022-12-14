@@ -8,8 +8,16 @@ df = pd.read_excel("star/Pacific_Southwest_star.xlsx",sheet_name="工作表1",us
 
 def Golden_State_Warriors_star():
   st.header('Golden State Warriors三大傳奇球星')
-  col1, col2 = st.columns((3,2))
+  col1, col2, col3 = st.columns((1,3,2))
   with col1:
+    st.markdown("👟 Shots on Goal")
+    st.markdown("🏃‍♂️ Distance (in km)")
+    st.markdown("🔁 Passes")
+    st.markdown("🤹‍♂️ Possession")
+    st.markdown("🤕 Fouls")
+    st.markdown("🚫 Offside")
+    st.markdown("📐 Corners")
+  with col2:
     option=st.selectbox('選擇球星？',['Tim Hardaway', 'Klay thompson', 'Stephen Curry'])
     if option=='Tim Hardaway':
       new_df = df[1:2]
@@ -20,7 +28,7 @@ def Golden_State_Warriors_star():
     if option=='Stephen Curry':
       new_df = df[2:3]
       st.dataframe(new_df)
-  with col2:
+  with col3:
     if option=='Tim Hardaway':
       image = Image.open('star/Tim Hardaway.jpg')
       st.image(image)
