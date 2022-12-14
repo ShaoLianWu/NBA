@@ -12,7 +12,7 @@ def Golden_State_Warriors_star():
   with col1:
     option=st.selectbox('選擇球星？',['Tim Hardaway', 'Klay thompson', 'Stephen Curry'])
     if option=='Tim Hardaway':
-      st.markdown:
+      st.markdown(''):
         new_df = df[1:2]
         st.dataframe(new_df)
     if option=='Klay thompson':
