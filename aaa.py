@@ -8,6 +8,7 @@ import Southwest_star
 import Pacific_allplayers
 import Southwest_allplayers
 
+st.set_page_config(page_title='NBA INTRODUCTION')
 st.title('NBA數據查詢系統')
 st.sidebar.header('選擇球隊及數據')
 option = st.sidebar.selectbox( '選擇分組？', ['Atlantic','Central', 'Southeast', 'Northwest','Pacific','Southwest'])
