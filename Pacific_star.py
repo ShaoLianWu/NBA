@@ -5,6 +5,9 @@ import xlrd
 import openpyxl
 
 df = pd.read_excel("star/Pacific_Southwest_star.xlsx",sheet_name="工作表1",usecols="A:H") 
+with st.spinner('Wait for it...'):
+  time.sleep(5)
+  st.success('Done!')
 
 def Golden_State_Warriors_star():
   st.header('Golden State Warriors三大傳奇球星')
@@ -12,9 +15,6 @@ def Golden_State_Warriors_star():
   with col1:
     option=st.selectbox('選擇球星？',['Tim Hardaway', 'Klay thompson', 'Stephen Curry'])
     if option=='Tim Hardaway':
-      with st.spinner('Wait for it...'):
-      time.sleep(5)
-      st.success('Done!')
       new_df = df[1:2]
       st.metric(label="Temperature", value="70 °F", delta="1.2 °F")
     if option=='Klay thompson':
