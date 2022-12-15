@@ -23,7 +23,7 @@ def Golden_State_Warriors_star():
         st.markdown("總得分")
       with col2:
         new_df = df[1:2]
-        
+        st.table(new_df)
     if option=='Klay thompson':
       new_df = df[1:2]
       st.table(new_df)
