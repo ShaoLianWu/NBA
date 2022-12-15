@@ -23,11 +23,10 @@ def Golden_State_Warriors_star():
         st.markdown("總得分")
       with col2:
         new_df = df[1:2]
-        for i in new_df:
-          print(new_df)
+        
     if option=='Klay thompson':
       new_df = df[1:2]
-      st.dataframe(new_df)
+      st.table(new_df)
     if option=='Stephen Curry':
       new_df = df[2:3]
       st.dataframe(new_df)
