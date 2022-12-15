@@ -26,7 +26,7 @@ def Golden_State_Warriors_star():
         st.table(new_df)
     if option=='Klay thompson':
       new_df = df[1:2]
-      st.table(new_df)
+      st.dataframe(new_df)
     if option=='Stephen Curry':
       new_df = df[2:3]
       st.dataframe(new_df)
