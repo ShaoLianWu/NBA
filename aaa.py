@@ -7,13 +7,6 @@ import Pacific_star
 import Southwest_star
 import Pacific_allplayers
 import Southwest_allplayers
-import time
-
-my_bar = st.progress(0)
-
-for percent_complete in range(100):
-    time.sleep(0.1)
-    my_bar.progress(percent_complete + 1)
 
 st.set_page_config(page_title='NBA introduction')
 st.title('NBA數據查詢系統')
