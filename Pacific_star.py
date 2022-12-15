@@ -6,7 +6,7 @@ import openpyxl
 
 df = pd.read_excel("star/Pacific_Southwest_star.xlsx",sheet_name="工作表1",usecols="A:H") 
 with st.spinner('Wait for it...'):
-  time.sleep(5)
+    time.sleep(5)
 st.success('Done!')
 
 def Golden_State_Warriors_star():
