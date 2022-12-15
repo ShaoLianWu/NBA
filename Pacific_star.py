@@ -24,7 +24,7 @@ def Golden_State_Warriors_star():
       with col2:
         new_df = df[1:2]
         for i in new_df:
-        print(new_df)
+          print(new_df)
     if option=='Klay thompson':
       new_df = df[1:2]
       st.dataframe(new_df)
