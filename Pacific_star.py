@@ -12,8 +12,25 @@ def Golden_State_Warriors_star():
   with col1:
     option=st.selectbox('選擇球星？',['Tim Hardaway', 'Klay thompson', 'Stephen Curry'])
     if option=='Tim Hardaway':
-      new_df = df[1:2]
-      st.dataframe(new_df)
+      col1, col2, col3 = st.columns((1,0.5,1))
+      with col1:
+        st.markdown("出賽")
+        st.markdown("投籃命中率")
+        st.markdown("三分命中率")
+        st.markdown("罰球命中率")
+        st.markdown("總籃板")
+        st.markdown("總助攻")
+        st.markdown("總得分")
+      with col2:
+        st.markdown(" ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎"+str(df[1:2].iloc[0]['shots_on_goal']))
+        st.markdown(" ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎"+str(df_match_result.iloc[0]['distance']))
+        st.markdown(" ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎"+str(df_match_result.iloc[0]['total_passes']))
+        st.markdown(" ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎‎"+str(df_match_result.iloc[0]['possession']))
+        st.markdown(" ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎"+str(df_match_result.iloc[0]['fouls']))
+        st.markdown(" ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎"+str(df_match_result.iloc[0]['offside']))
+        st.markdown(" ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎"+str(df_match_result.iloc[0]['corners']))
+        new_df = df[1:2]
+        st.dataframe(new_df)
     if option=='Klay thompson':
       new_df = df[1:2]
       st.dataframe(new_df)
