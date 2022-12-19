@@ -1,4 +1,7 @@
-xlrd 
+xlrd
 openpyxl
-streamlit-folium
 pandas
+plost
+plotly
+matplotlib
+streamlit-folium
