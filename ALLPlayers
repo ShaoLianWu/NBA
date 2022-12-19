@@ -1,0 +1,129 @@
+import streamlit as st  
+import pandas as pd
+import xlrd  
+import openpyxl
+
+def BostonCeltics_allplayers():
+  st.header('2021-22球員數據')
+  df = pd.read_excel("2021-22data/BostonCeltics.xlsx") 
+  st.dataframe(df)
+def BrooklynNets_allplayers():
+  st.header('2021-22球員數據')
+  df = pd.read_excel("2021-22data/BrooklynNets.xlsx") 
+  st.dataframe(df)  
+def NewYorkKnicks_allplayers():
+  st.header('2021-22球員數據')
+  df = pd.read_excel("2021-22data/NewYorkKnicks.xlsx") 
+  st.dataframe(df)    
+def Philadelphia76ers_allplayers():
+  st.header('2021-22球員數據')
+  df = pd.read_excel("2021-22data/Philadelphia76ers.xlsx") 
+  st.dataframe(df)    
+def TorontoRaptors_allplayers():
+  st.header('2021-22球員數據')
+  df = pd.read_excel("2021-22data/TorontoRaptors.xlsx") 
+  st.dataframe(df)  
+def ChicagoBulls_allplayers():
+  st.header('2021-22球員數據')
+  df = pd.read_excel("2021-22data/ChicagoBulls.xlsx") 
+  st.dataframe(df)    
+def ClevelandCavaliers_allplayers():
+  st.header('2021-22球員數據')
+  df = pd.read_excel("2021-22data/ClevelandCavaliers.xlsx") 
+  st.dataframe(df)    
+def DetroitPistons_allplayers():
+  st.header('2021-22球員數據')
+  df = pd.read_excel("2021-22data/DetroitPistons.xlsx") 
+  st.dataframe(df)   
+def IndianaPacers_allplayers():
+  st.header('2021-22球員數據')
+  df = pd.read_excel("2021-22data/IndianaPacers.xlsx") 
+  st.dataframe(df)   
+def MilwaukeeBucks_allplayers():
+  st.header('2021-22球員數據')
+  df = pd.read_excel("2021-22data/MilwaukeeBucks.xlsx") 
+  st.dataframe(df)  
+def AtlantaHawks_allplayers():
+  st.header('2021-22球員數據')
+  df = pd.read_excel("2021-22data/AtlantaHawks.xlsx") 
+  st.dataframe(df)  
+def CharlotteHornets_allplayers():
+  st.header('2021-22球員數據')
+  df = pd.read_excel("2021-22data/CharlotteHornets.xlsx") 
+  st.dataframe(df)  
+def MiamiHeat_allplayers():
+  st.header('2021-22球員數據')
+  df = pd.read_excel("2021-22data/MiamiHeat.xlsx") 
+  st.dataframe(df)  
+def OrlandoMagic_allplayers():
+  st.header('2021-22球員數據')
+  df = pd.read_excel("2021-22data/OrlandoMagic.xlsx") 
+  st.dataframe(df)    
+def MiamiHeat_allplayers():
+  st.header('2021-22球員數據')
+  df = pd.read_excel("2021-22data/MiamiHeat.xlsx") 
+  st.dataframe(df)  
+def WashingtonWizards_allplayers():
+  st.header('2021-22球員數據')
+  df = pd.read_excel("2021-22data/WashingtonWizards.xlsx") 
+  st.dataframe(df)    
+def DenverNuggets_allplayers():
+  st.header('2021-22球員數據')
+  df = pd.read_excel("2021-22data/DenverNuggets.xlsx") 
+  st.dataframe(df)    
+def MinnesotaTimberwolves_allplayers():
+  st.header('2021-22球員數據')
+  df = pd.read_excel("2021-22data/MinnesotaTimberwolves.xlsx") 
+  st.dataframe(df)    
+def OklahomaCityThunder_allplayers():
+  st.header('2021-22球員數據')
+  df = pd.read_excel("2021-22data/OklahomaCityThunder.xlsx") 
+  st.dataframe(df)    
+def PortlandTrailBlazers_allplayers():
+  st.header('2021-22球員數據')
+  df = pd.read_excel("2021-22data/PortlandTrailBlazers.xlsx") 
+  st.dataframe(df)    
+def UtahJazz_allplayers():
+  st.header('2021-22球員數據')
+  df = pd.read_excel("2021-22data/UtahJazz.xlsx") 
+  st.dataframe(df)    
+def GoldenStateWarriors_allplayers():
+  st.header('2021-22球員數據')
+  df = pd.read_excel("2021-22data/Golden State Warriors.xlsx") 
+  st.dataframe(df)    
+def LosAngelesClippers_allplayers():
+  st.header('2021-22球員數據')
+  df = pd.read_excel("2021-22data/Los Angeles Clippers.xlsx") 
+  st.dataframe(df)    
+def LosAngelesLakers_allplayers():
+  st.header('2021-22球員數據')
+  df = pd.read_excel("2021-22data/Los Angeles Lakers.xlsx") 
+  st.dataframe(df)
+def PhoenixSuns_allplayers():
+  st.header('2021-22球員數據')
+  df = pd.read_excel("2021-22data/Phoenix Suns.xlsx") 
+  st.dataframe(df)    
+def SacramentoKings_allplayers():
+  st.header('2021-22球員數據')
+  df = pd.read_excel("2021-22data/Sacramento Kings.xlsx") 
+  st.dataframe(df)    
+def DallasMavericks_allplayers():
+  st.header('2021-22球員數據')
+  df = pd.read_excel("2021-22data/Dallas Mavericks.xlsx") 
+  st.dataframe(df)    
+def HoustonRockets_allplayers():
+  st.header('2021-22球員數據')
+  df = pd.read_excel("2021-22data/Houston Rockets.xlsx") 
+  st.dataframe(df)    
+def MemphisGrizzlies_allplayers():
+  st.header('2021-22球員數據')
+  df = pd.read_excel("2021-22data/Memphis Grizzlies.xlsx") 
+  st.dataframe(df) 
+def NewOrleansPelicans_allplayers():
+  st.header('2021-22球員數據')
+  df = pd.read_excel("2021-22data/New Orleans Pelicans.xlsx") 
+  st.dataframe(df)    
+def SanAntonioSpurs_allplayers():
+  st.header('2021-22球員數據')
+  df = pd.read_excel("2021-22data/San Antonio Spurs.xlsx") 
+  st.dataframe(df)
