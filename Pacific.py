@@ -16,8 +16,6 @@ def Golden_State_Warriors():   #勇士
   col1, col2= st.columns(2)
   col1.metric("總冠軍🏆", "7  次")
   col2.metric("區冠軍🏆", "12  次")
-  image = Image.open('legendplayer'/option_legendplayer+'.jpg')
-  st.image(image) 
   
 def Los_Angeles_Clippers():   #快艇
   col1, col2 = st.columns(2)
