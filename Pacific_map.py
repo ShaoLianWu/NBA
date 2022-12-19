@@ -22,20 +22,20 @@ def Golden_State_Warriors_map():  #勇士
   
 def Los_Angeles_Clippers_map():  #快艇
     st.header('主場:加密貨幣網體育館')
-    Staples_Center= folium.Map(location=[34.043056, -118.267222], zoom_start=16)
-        # add marker for Liberty Bell
-    tooltip = "加密貨幣網體育館"
-    folium.Marker([34.043056, -118.267222], popup="加密貨幣網體育館", tooltip=tooltip
-    ).add_to(Staples_Center)
-    folium_static(Staples_Center)
-    col1, col2 = st.columns(2)
+    col1, col2 = st.columns((1.7,1))
     with col1:
+        Staples_Center= folium.Map(location=[34.043056, -118.267222], zoom_start=16)
+            # add marker for Liberty Bell
+        tooltip = "加密貨幣網體育館"
+        folium.Marker([34.043056, -118.267222], popup="加密貨幣網體育館", tooltip=tooltip
+        ).add_to(Staples_Center)
+        folium_static(Staples_Center)
+    with col2:
         image = Image.open('teams picture/Staples_Center.jpg')
-        st.image(image)        
-    with col2:        
+        st.image(image)                
         image1 = Image.open('teams picture/Staples_Center_Tickets.jpg')
         st.image(image1)
-    st.write('地址：1111 S Figueroa St, Los Angeles, CA 90015美國, 觀眾席數：19,060人')
+        st.write('地址：1111 S Figueroa St, Los Angeles, CA 90015美國, 觀眾席數：19,060人')
     
 def Los_Angeles_Lakers_map():  #湖人
     st.header('主場:加密貨幣網體育館')
