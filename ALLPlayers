@@ -10,59 +10,59 @@ def BostonCeltics_allplayers():
 def BrooklynNets_allplayers():
   st.header('2021-22球員數據')
   df = pd.read_excel("2021-22data/BrooklynNets.xlsx") 
-  st.dataframe(df)  
+  st.dataframe(df)
 def NewYorkKnicks_allplayers():
   st.header('2021-22球員數據')
   df = pd.read_excel("2021-22data/NewYorkKnicks.xlsx") 
-  st.dataframe(df)    
+  st.dataframe(df)
 def Philadelphia76ers_allplayers():
   st.header('2021-22球員數據')
   df = pd.read_excel("2021-22data/Philadelphia76ers.xlsx") 
-  st.dataframe(df)    
+  st.dataframe(df)
 def TorontoRaptors_allplayers():
   st.header('2021-22球員數據')
   df = pd.read_excel("2021-22data/TorontoRaptors.xlsx") 
-  st.dataframe(df)  
+  st.dataframe(df)
 def ChicagoBulls_allplayers():
   st.header('2021-22球員數據')
   df = pd.read_excel("2021-22data/ChicagoBulls.xlsx") 
-  st.dataframe(df)    
+  st.dataframe(df)
 def ClevelandCavaliers_allplayers():
   st.header('2021-22球員數據')
   df = pd.read_excel("2021-22data/ClevelandCavaliers.xlsx") 
-  st.dataframe(df)    
+  st.dataframe(df)
 def DetroitPistons_allplayers():
   st.header('2021-22球員數據')
   df = pd.read_excel("2021-22data/DetroitPistons.xlsx") 
-  st.dataframe(df)   
+  st.dataframe(df)
 def IndianaPacers_allplayers():
   st.header('2021-22球員數據')
   df = pd.read_excel("2021-22data/IndianaPacers.xlsx") 
-  st.dataframe(df)   
+  st.dataframe(df)
 def MilwaukeeBucks_allplayers():
   st.header('2021-22球員數據')
   df = pd.read_excel("2021-22data/MilwaukeeBucks.xlsx") 
-  st.dataframe(df)  
+  st.dataframe(df)
 def AtlantaHawks_allplayers():
   st.header('2021-22球員數據')
   df = pd.read_excel("2021-22data/AtlantaHawks.xlsx") 
-  st.dataframe(df)  
+  st.dataframe(df)
 def CharlotteHornets_allplayers():
   st.header('2021-22球員數據')
   df = pd.read_excel("2021-22data/CharlotteHornets.xlsx") 
-  st.dataframe(df)  
+  st.dataframe(df)
 def MiamiHeat_allplayers():
   st.header('2021-22球員數據')
   df = pd.read_excel("2021-22data/MiamiHeat.xlsx") 
-  st.dataframe(df)  
+  st.dataframe(df)
 def OrlandoMagic_allplayers():
   st.header('2021-22球員數據')
   df = pd.read_excel("2021-22data/OrlandoMagic.xlsx") 
-  st.dataframe(df)    
+  st.dataframe(df)
 def MiamiHeat_allplayers():
   st.header('2021-22球員數據')
   df = pd.read_excel("2021-22data/MiamiHeat.xlsx") 
-  st.dataframe(df)  
+  st.dataframe(df)
 def WashingtonWizards_allplayers():
   st.header('2021-22球員數據')
   df = pd.read_excel("2021-22data/WashingtonWizards.xlsx") 
