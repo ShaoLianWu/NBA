@@ -18,7 +18,7 @@ def Golden_State_Warriors_map():  #勇士
         st.image(image)        
         image1 = Image.open('teams picture/Chase_Center_Tickets.jpg')
         st.image(image1)
-        st.write('地址：1 Warriors Way, San Francisco, CA 94158美國, 觀眾席數：18,064席')
+    st.write('地址：1 Warriors Way, San Francisco, CA 94158美國, 觀眾席數：18,064席')
   
 def Los_Angeles_Clippers_map():  #快艇
     st.header('主場:加密貨幣網體育館')
