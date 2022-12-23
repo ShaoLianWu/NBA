@@ -3,5 +3,6 @@ openpyxl
 pandas
 plost
 plotly
+seaborn
 matplotlib
 streamlit-folium
