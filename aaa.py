@@ -6,8 +6,7 @@ import plost            #plost套件(甜甜圈圖)
 from PIL import Image   #圖片套件
 import matplotlib.pyplot as plt #matplotlib(資料繪圖)
 import teams_information
-import Pacific_map
-import Southwest_map
+import teams_map
 import Pacific_star
 import Southwest_star
 import Pacific_allplayers
