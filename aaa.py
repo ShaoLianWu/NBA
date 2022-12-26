@@ -9,6 +9,11 @@ import Southwest_star
 import Pacific_allplayers
 import Southwest_allplayers
 
+st.set_page_config(page_title="NBA Dashboard",
+                   page_icon='🏀',
+                   layout="wide")
+st.title('NBA資訊面板系統')
+
 image=Image.open('NBA logo.jpg')
 st.set_page_config(page_title='NBA introduction')
 st.title('NBA數據查詢系統')
