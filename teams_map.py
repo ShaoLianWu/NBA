@@ -3,8 +3,9 @@ import folium
 from PIL import Image  
 from streamlit_folium import folium_static 
 
-def Golden_State_Warriors_map():  #勇士
-    st.header('主場:大通銀行中心')
+def teams_map(option_teams):
+  if option_teams=="Golden State Warriors":  #勇士
+    st.markedown('### 主場: 大通銀行中心')
     col1 ,col2 = st.columns((1.7,1))
     with col1:
         Chase_Center= folium.Map(location=[37.768056, -122.3875], zoom_start=16)
@@ -20,8 +21,8 @@ def Golden_State_Warriors_map():  #勇士
         st.image(image1)
         st.write('地址：1 Warriors Way, San Francisco, CA 94158美國, 觀眾席數：18,064席')
   
-def Los_Angeles_Clippers_map():  #快艇
-    st.header('主場:加密貨幣網體育館')
+  if option_teams=="Los Angeles Clippers":  #快艇
+    st.markdown('### 主場: 加密貨幣網體育館')
     col1, col2 = st.columns((1.7,1))
     with col1:
         Staples_Center= folium.Map(location=[34.043056, -118.267222], zoom_start=16)
@@ -37,8 +38,8 @@ def Los_Angeles_Clippers_map():  #快艇
         st.image(image1)
         st.write('地址：1111 S Figueroa St, Los Angeles, CA 90015美國, 觀眾席數：19,060人')
     
-def Los_Angeles_Lakers_map():  #湖人
-    st.header('主場:加密貨幣網體育館')
+  if option_teams=="Los Angeles Lakers":  #湖人
+    st.markdown('### 主場: 加密貨幣網體育館')
     Staples_Center= folium.Map(location=[34.043056, -118.267222], zoom_start=16)
         # add marker for Liberty Bell
     tooltip = "加密貨幣網體育館"
@@ -54,8 +55,8 @@ def Los_Angeles_Lakers_map():  #湖人
         st.image(image1)
     st.write('地址：1111 S Figueroa St, Los Angeles, CA 90015美國, 觀眾席數：18,997人')
     
-def Phoenix_Suns_map():  #太陽
-    st.header('主場:足跡中心')
+  if option_teams=="Phoenix Suns":  #太陽
+    st.markdown('### 主場: 足跡中心')
     Footprint_Center= folium.Map(location=[33.445833,-112.071389], zoom_start=16)
         # add marker for Liberty Bell
     tooltip = "足跡中心"
@@ -71,8 +72,8 @@ def Phoenix_Suns_map():  #太陽
         st.image(image1)
     st.write('地址：US Airways Center, 201S 1st St, Phoenix, AZ 85004美國, 觀眾席數：18,422人')
 
-def Sacramento_Kings_map():  #國王
-    st.header('主場:金州第一中心')
+  if option_teams=="Sacramento Kings":  #國王
+    st.markdown('### 主場: 金州第一中心')
     Golden1_Center= folium.Map(location=[38.580361, -121.499611], zoom_start=16)
         # add marker for Liberty Bell
     tooltip = "金州第一中心"
