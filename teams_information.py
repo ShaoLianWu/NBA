@@ -1,7 +1,7 @@
 import streamlit as st  
 from PIL import Image  
 def teams_information(option_teams):
-    if option_teams=="Golden State Warriors":   #勇士
+  if option_teams=="Golden State Warriors":   #勇士
     col1, col2 = st.columns(2)
     with col1:
       image = Image.open('teams logo/Golden_State_Warriors.png')
