@@ -8,7 +8,7 @@ import Southwest_star
 import Pacific_allplayers
 import Southwest_allplayers
 
-image=Image.open('NBA logo.png')
+image=Image.open('NBA logo.jpg')
 st.set_page_config(page_title='NBA introduction')
 st.title('NBA數據查詢系統')
 st.sidebar.header('選擇球隊及數據')
