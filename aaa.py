@@ -5,8 +5,7 @@ import pandas as pd     #pandas套件(資料分析)
 import plost            #plost套件(甜甜圈圖)
 from PIL import Image   #圖片套件
 import matplotlib.pyplot as plt #matplotlib(資料繪圖)
-import Pacific 
-import Southwest
+import teams_information
 import Pacific_map
 import Southwest_map
 import Pacific_star
