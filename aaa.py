@@ -15,9 +15,8 @@ st.set_page_config(page_title="NBA Dashboard",
 st.title('NBA資訊面板系統')
 
 image=Image.open('NBA logo.jpg')
-st.set_page_config(page_title='NBA introduction')
-st.title('NBA數據查詢系統')
-st.sidebar.header('選擇球隊及數據')
+st.sidebar.image(image)
+st.sidebar.title('請選擇區域及球隊')
 option = st.sidebar.selectbox( '選擇分組？', ['Atlantic','Central', 'Southeast', 'Northwest','Pacific','Southwest'])
 
 if option=='Pacific':
